@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        .con{
+            background-color: lightblue;
+            /* display: inlin; */
+            width: 400px;
+            margin: auto;
+            margin-top: 5rem;
+            padding: 1rem;
+            display: flex;
+            /* align-items: center; */
+            gap: .5rem;
+            /* margin: auto; */
+            flex-direction: column;
+            font-family: sans-serif;
+            text-align: center;
+            /* margin: auto; */
+        }
+        h1{
+            font-size: 20px;
+        }
+        .same{
+            padding: 1rem;
+            width: 300px;
+            /* height: 40px; */
+            border: 1px solid none;
+            border-radius: 8px;
+            margin: auto;
+        }
+        .check{
+            display: flex;
+            color: green;
+            margin: auto;
+        }
+        .check a{
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .check a:hover{
+            text-decoration: underline;
+            color: royalblue;
+            transition: 1s;
+            font-size: 14px;
+        }
+        button{
+            border: 1px solid none;
+            border-radius: 5px;
+            padding: 1rem 2rem;
+            margin: auto;
+            /* outline: none; */
+            border: none;
+            color: white;
+            background-color: royalblue;
+            width: 300px;
+        }
+        button:hover{
+            scale: 1.1;
+            background-color: rgb(54, 65, 68);
+            color: gray;
+            transition: 0.7s;
+        }
+    </style>
+</head>
+<body>
+  <form action="">
+     <div class="con">
+         <h1>Welcome! | sign-up!</h1>
+         <input class="same" type="email" placeholder="Enter your email adress" required>
+         <input class="same" type="password" required>
+         <div class="check">
+             <input type="checkbox" required >
+             <a href="">Accept to terms and conditions</a>
+         </div>
+         <button>Log in</button>
+    </div>
+  </form>
+</body>
+</html>
